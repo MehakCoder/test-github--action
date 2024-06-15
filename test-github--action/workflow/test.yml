@@ -1,5 +1,8 @@
-# this is my comment
-my-app:
-  service: test-github--action
-  test 1: script 1
-  test 2: script 2
+name: My first github action
+on: [push]
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo"hello world!!!!!!!!!"
+      - run: echo"this is step number 2"

@@ -1,7 +1,5 @@
 {
-    "myapp":{
-          "service":"test-github--action",
-          "test":"script 1",
-          "test 2": "script2"
-    }
+    
+          "service":"test-github--action"
+
 }
