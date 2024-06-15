@@ -7,4 +7,8 @@ jobs:
       - uses: action/checkout@V-2
       - uses: action/setup-node@v2
         with: node-version:'14.17.0'
-      - run: node -v
+        run: yarn
+      - name: Bulid the project
+        run: yarn bulid
+      - name: Setup finish
+      - run: echo "Hurray!"
