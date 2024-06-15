@@ -6,4 +6,5 @@ jobs:
     steps:
       - uses: action/checkout@V-2
       - uses: action/setup-node@v2
-      - run: tree
+        with: node-version:'14.17.0'
+      - run: node -v
